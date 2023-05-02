@@ -7,3 +7,8 @@ const team = [
     { nome: "Barbara Ramos", ruolo: "Graphic Designer", foto: "barbara-ramos-graphic-designer.jpg" },
 ];
 
+for (const key in team) {
+    console.log(team[key]);        
+}
+
+
