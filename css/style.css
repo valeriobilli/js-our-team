@@ -3,3 +3,27 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#team > .card {
+    background-color: cornflowerblue;
+    border: solid 1px black;
+    border-radius: 6px;
+    margin: 1em;
+    padding: 1em;
+    width: 30vw;
+}
+
+#team > .card > img {
+    width: 100%;
+}
+
+#team {
+    padding: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+}
